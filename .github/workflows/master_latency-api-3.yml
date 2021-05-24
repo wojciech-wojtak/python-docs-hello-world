@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'latency-api-3'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_6765a5073bf345d7824530a9eb3a6d9b }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_d860dfff1ab64e02a8313b44063cc27d }}
