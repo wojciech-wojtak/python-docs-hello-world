@@ -18,7 +18,6 @@ def fetch(url):
 
 @app.route("/request/<url>/<path>")
 def fetch_path(url, path):
-
     response = requests.get("https://{}/{}".format(url, path), timeout=5)
 
     return "{}: {}".format("https://{}/{}".format(url, path), response.elapsed.total_seconds())
